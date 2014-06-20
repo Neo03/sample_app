@@ -6,6 +6,9 @@ ruby '2.1.0'
 gem 'rails', '4.0.2'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'bcrypt-ruby', '3.1.2'
+gem 'faker', '1.1.2'
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
 
 
 # Use sqlite3 as the database for Active Record
@@ -45,6 +48,8 @@ gem 'turbolinks', '1.1.1'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '1.2'
+
+gem 'libnotify', '0.8.0'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
